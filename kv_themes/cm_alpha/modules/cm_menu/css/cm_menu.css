@@ -1,0 +1,147 @@
+/*////////////////////////////////////////////////////
+//
+// THEME_MODULE : CM_ALPHA/CM_MENU
+//
+// Kevin Lee, Hollywood Music Productions LLC
+//
+// KV_ROOT/kv_themes/cm_alpha/modules/cm_menu/cm_menu.css
+//
+////////////////////////////////////////////////////*/
+
+/*
+// Menu
+*/
+.cm-menu {
+    display: table;
+    margin: 0 auto;
+    z-index: -1;
+    padding-left: 10px;
+}
+
+.cm-menu >ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.cm-menu ::before{
+    display: table;
+    content: " ";
+}
+
+.cm-menu ::after{
+    clear: both;
+    display: table;
+    content: " ";
+}
+
+.cm-menu >ul > li {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+
+.cm-menu >ul > li+li {
+    margin-left: 2px;
+}
+
+.cm-menu >ul > li> a{
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #eee;
+}
+    
+.cm-menu >ul >li {
+    position: relative;
+}
+
+.cm-menu-selector {
+    position: absolute;
+    top: 0;
+    left: auto;
+    width: 100%;
+    height: 100%;
+    background-color: #999999;
+    opacity: 0.0;
+    z-index: 0;
+    
+}
+
+.cm-img-menu-item >img{
+    height: 50px;
+    width: 50px;
+}
+
+/*
+// Affiliations Menu
+*/
+
+.cm-menu-affiliations {
+    display: table;
+    z-index: -1; 
+}
+
+.cm-menu-affiliations >ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.cm-menu-affiliations >ul > li {
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+
+.cm-menu-affiliations >ul > li+li {
+    margin-left: 2px;
+}
+
+.cm-menu-affiliations >ul > li> a{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: #aaa;
+    margin-left: -1em; /* temporarily adjusted */
+}
+    
+.cm-menu-affiliations >ul >li {
+    position: relative;
+}
+
+/*
+// Media Settings
+*/
+
+@media (max-width: 767px) {
+    .cm-menu {
+        margin-top: 0px;
+        padding-left: 0px;
+    }
+    .cm-menu > ul > li{
+        width: 100%;
+        text-align: center;
+    }
+    .cm-menu >ul > li+li {
+        margin-left: 0;
+    }
+    .cm-img-menu-item >img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .cm-menu-affiliations >ul > li+li {
+        margin-left: 0;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+}

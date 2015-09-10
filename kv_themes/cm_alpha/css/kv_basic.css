@@ -1,0 +1,150 @@
+/*////////////////////////////////////////////////////
+//
+// THEME : CM_ALPHA
+//
+// Kevin Lee, Hollywood Music Productions LLC
+//
+// KV_ROOT/kv_themes/cm_alpha/css/kv_basic.css
+//
+////////////////////////////////////////////////////*/
+
+/*
+//
+// no-series
+//
+*/
+.no-margin { margin: 0; }
+.no-padding { padding: 0; }
+.no-border { border: 0; }
+
+
+/*
+//
+// v-margin-x
+//
+*/
+
+.v-margin-00 { margin-top : 0; margin-bottom: 0; }
+.v-margin-01 { margin-top : 0.1em; margin-bottom : 0.1em; }
+.v-margin-02 { margin-top : 0.2em; margin-bottom : 0.2em; }
+.v-margin-03 { margin-top : 0.3em; margin-bottom : 0.3em; }
+.v-margin-04 { margin-top : 0.4em; margin-bottom : 0.4em; }
+.v-margin-05 { margin-top : 0.5em; margin-bottom : 0.5em; }
+.v-margin-06 { margin-top : 0.6em; margin-bottom : 0.6em; }
+.v-margin-07 { margin-top : 0.7em; margin-bottom : 0.7em; }
+.v-margin-08 { margin-top : 0.8em; margin-bottom : 0.8em; }
+.v-margin-09 { margin-top : 0.9em; margin-bottom : 0.9em; }
+.v-margin-10 { margin-top : 1.0em; margin-bottom : 1.0em; }
+.v-margin-11 { margin-top : 1.1em; margin-bottom : 1.1em; }
+.v-margin-12 { margin-top : 1.2em; margin-bottom : 1.2em; }
+.v-margin-13 { margin-top : 1.3em; margin-bottom : 1.3em; }
+.v-margin-14 { margin-top : 1.4em; margin-bottom : 1.4em; }
+.v-margin-15 { margin-top : 1.5em; margin-bottom : 1.5em; }
+.v-margin-16 { margin-top : 1.6em; margin-bottom : 1.6em; }
+.v-margin-17 { margin-top : 1.7em; margin-bottom : 1.7em; }
+.v-margin-18 { margin-top : 1.8em; margin-bottom : 1.8em; }
+.v-margin-19 { margin-top : 1.9em; margin-bottom : 1.9em; }
+.v-margin-20 { margin-top : 2.0em; margin-bottom : 2.0em; }
+
+/*
+//
+// h-margin-x
+//
+*/
+.h-margin-00 { margin-left : 0; margin-right: 0; }
+.h-margin-01 { margin-left : 0.1em; margin-right : 0.1em; }
+.h-margin-02 { margin-left : 0.2em; margin-right : 0.2em; }
+.h-margin-03 { margin-left : 0.3em; margin-right : 0.3em; }
+.h-margin-04 { margin-left : 0.4em; margin-right : 0.4em; }
+.h-margin-05 { margin-left : 0.5em; margin-right : 0.5em; }
+.h-margin-06 { margin-left : 0.6em; margin-right : 0.6em; }
+.h-margin-07 { margin-left : 0.7em; margin-right : 0.7em; }
+.h-margin-08 { margin-left : 0.8em; margin-right : 0.8em; }
+.h-margin-09 { margin-left : 0.9em; margin-right : 0.9em; }
+.h-margin-10 { margin-left : 1.0em; margin-right : 1.0em; }
+.h-margin-11 { margin-left : 1.1em; margin-right : 1.1em; }
+.h-margin-12 { margin-left : 1.2em; margin-right : 1.2em; }
+.h-margin-13 { margin-left : 1.3em; margin-right : 1.3em; }
+.h-margin-14 { margin-left : 1.4em; margin-right : 1.4em; }
+.h-margin-15 { margin-left : 1.5em; margin-right : 1.5em; }
+.h-margin-16 { margin-left : 1.6em; margin-right : 1.6em; }
+.h-margin-17 { margin-left : 1.7em; margin-right : 1.7em; }
+.h-margin-18 { margin-left : 1.8em; margin-right : 1.8em; }
+.h-margin-19 { margin-left : 1.9em; margin-right : 1.9em; }
+.h-margin-20 { margin-left : 2.0em; margin-right : 2.0em; }
+
+/*
+//
+// v-padding-x
+//
+*/
+.v-padding-00 { padding-top : 0; padding-top: 0; }
+.v-padding-01 { padding-top : 0.1em; padding-bottom : 0.1em; }
+.v-padding-02 { padding-top : 0.2em; padding-bottom : 0.2em; }
+.v-padding-03 { padding-top : 0.3em; padding-bottom : 0.3em; }
+.v-padding-04 { padding-top : 0.4em; padding-bottom : 0.4em; }
+.v-padding-05 { padding-top : 0.5em; padding-bottom : 0.5em; }
+.v-padding-06 { padding-top : 0.6em; padding-bottom : 0.6em; }
+.v-padding-07 { padding-top : 0.7em; padding-bottom : 0.7em; }
+.v-padding-08 { padding-top : 0.8em; padding-bottom : 0.8em; }
+.v-padding-09 { padding-top : 0.9em; padding-bottom : 0.9em; }
+.v-padding-10 { padding-top : 1.0em; padding-bottom : 1.0em; }
+.v-padding-11 { padding-top : 1.1em; padding-bottom : 1.1em; }
+.v-padding-12 { padding-top : 1.2em; padding-bottom : 1.2em; }
+.v-padding-13 { padding-top : 1.3em; padding-bottom : 1.3em; }
+.v-padding-14 { padding-top : 1.4em; padding-bottom : 1.4em; }
+.v-padding-15 { padding-top : 1.5em; padding-bottom : 1.5em; }
+.v-padding-16 { padding-top : 1.6em; padding-bottom : 1.6em; }
+.v-padding-17 { padding-top : 1.7em; padding-bottom : 1.7em; }
+.v-padding-18 { padding-top : 1.8em; padding-bottom : 1.8em; }
+.v-padding-19 { padding-top : 1.9em; padding-bottom : 1.9em; }
+.v-padding-20 { padding-top : 2.0em; padding-bottom : 2.0em; }
+
+/*
+//
+// h-padding-x
+//
+*/
+.h-padding-00 { padding-left : 0; padding-right: 0; }
+.h-padding-01 { padding-left : 0.1em; padding-right : 0.1em; }
+.h-padding-02 { padding-left : 0.2em; padding-right : 0.2em; }
+.h-padding-03 { padding-left : 0.3em; padding-right : 0.3em; }
+.h-padding-04 { padding-left : 0.4em; padding-right : 0.4em; }
+.h-padding-05 { padding-left : 0.5em; padding-right : 0.5em; }
+.h-padding-06 { padding-left : 0.6em; padding-right : 0.6em; }
+.h-padding-07 { padding-left : 0.7em; padding-right : 0.7em; }
+.h-padding-08 { padding-left : 0.8em; padding-right : 0.8em; }
+.h-padding-09 { padding-left : 0.9em; padding-right : 0.9em; }
+.h-padding-10 { padding-left : 1.0em; padding-right : 1.0em; }
+.h-padding-11 { padding-left : 1.1em; padding-right : 1.1em; }
+.h-padding-12 { padding-left : 1.2em; padding-right : 1.2em; }
+.h-padding-13 { padding-left : 1.3em; padding-right : 1.3em; }
+.h-padding-14 { padding-left : 1.4em; padding-right : 1.4em; }
+.h-padding-15 { padding-left : 1.5em; padding-right : 1.5em; }
+.h-padding-16 { padding-left : 1.6em; padding-right : 1.6em; }
+.h-padding-17 { padding-left : 1.7em; padding-right : 1.7em; }
+.h-padding-18 { padding-left : 1.8em; padding-right : 1.8em; }
+.h-padding-19 { padding-left : 1.9em; padding-right : 1.9em; }
+.h-padding-20 { padding-left : 2.0em; padding-right : 2.0em; }
+
+/*
+//
+// textsize hx ( following bootstrap preset )
+//
+*/
+
+.textsize-h1 { font-size: 36px; }
+.textsize-h2 { font-size: 30px; }
+.textsize-h3 { font-size: 24px; }
+.textsize-h4 { font-size: 18px; }
+.textsize-h5 { font-size: 14px; }
+.textsize-h6 { font-size: 12px; }
+
+
+/*
+//
+// pull series
+//
+*/
+
+.pullup-50 { margin-top: -50px; }

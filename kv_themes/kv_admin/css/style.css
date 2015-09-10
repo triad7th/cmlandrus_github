@@ -1,0 +1,86 @@
+/*////////////////////////////////////////////////////
+//
+// THEME : CM_ALPHA
+//
+// Kevin Lee, Hollywood Music Productions LLC
+//
+// KV_ROOT/kv_themes/cm_alpha/style.css
+//
+////////////////////////////////////////////////////*/
+
+/*
+// Basic
+*/
+body {
+    /*
+    background-image: -ms-linear-gradient(bottom, #000000 0%, #3B4652 100%);
+    background-image: -moz-linear-gradient(bottom, #000000 0%, #3B4652 100%);
+    background-image: -o-linear-gradient(bottom, #000000 0%, #3B4652 100%);
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #000000), color-stop(1, #3B4652));
+    background-image: -webkit-linear-gradient(bottom, #000000 0%, #3B4652 100%);
+    background-image: linear-gradient(bottom, #000000 0%, #3B4652 100%);
+    */
+    background-color: white;
+}
+
+
+
+/*
+// Logout Button
+*/
+.padding-logout {
+    padding: 2 6;
+}
+
+/*
+// Left Panel
+*/
+.nav-pills>li>a {
+    border-radius: 0px;
+    text-align: left;
+}
+
+/*
+// Console
+*/
+.kv-console-box {
+    border-bottom: 0px;
+    height: 1200px;
+}
+
+
+.kv-console-input {
+    border-top: 0px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+/*
+// Media Settings
+*/
+
+@media (max-width: 767px) {
+/*xs*/
+    .cm-menu {
+        margin-top: 10px;
+        font-size: 80%;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px) {
+/*sm*/
+    .cm-menu {
+        font-size: 90%;
+    }
+    
+    .kv-console-box {
+        
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+@media (min-width: 1200px) {
+}
