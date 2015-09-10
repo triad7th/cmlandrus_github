@@ -1,0 +1,13 @@
+kv_order,int
+id,string
+first_name,string
+middle_name,string
+last_name,string
+password,string
+email,string
+address_1,string
+address_2,string
+zipcode,string
+country,string
+last_access,string
+log_state,string

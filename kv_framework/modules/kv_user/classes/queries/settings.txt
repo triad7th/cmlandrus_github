@@ -1,0 +1,6 @@
+kv_order,int
+id,string
+console_pad,int
+console_direction,string
+console_db,string
+console_table,string
